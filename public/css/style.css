@@ -1,5 +1,12 @@
 body{
      font-family: "Plus Jakarta Sans", sans-serif !important; 
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+
+}
+.container{
+    flex : 1;
 }
 
 .navbar{
@@ -9,7 +16,7 @@ body{
 }
 
 .fa-kickstarter-k{
-    color : #fe424d;
+    color : #181C14;
     font-size : 2rem;  
 }
 
@@ -84,4 +91,10 @@ font-weight: 400 !important;
     background-color: white;
     opacity: 0.2;
     
+}
+
+/* newpage */
+.add-btn{
+    background-color: #181C14  !important;
+    border: none !important ;
 }
