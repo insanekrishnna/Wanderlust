@@ -80,3 +80,8 @@ font-weight: 400 !important;
 }
 
 
+.card-img-overlay:hover{
+    background-color: white;
+    opacity: 0.2;
+    
+}
